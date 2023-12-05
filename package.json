@@ -2,9 +2,10 @@
   "name": "text_to_image",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server":"nodemon index.js"
   },
   "keywords": [
     "node.js"
@@ -14,5 +15,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
